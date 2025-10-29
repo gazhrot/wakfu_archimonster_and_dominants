@@ -27,9 +27,31 @@
                     placeholder="🔍 Chercher un monstre, un loot, une zone..."
                 >
             </div>
-            <div>
-                <input type="checkbox" id="filter-opti">
-                <label for="filter-opti">Afficher uniquement les monstres avec loot optimisé</label>
+            <div class="toggle-switch-container">
+                <input type="checkbox" id="filter-opti"> 
+                <label for="filter-opti">Toggle Opti</label>
+                <span class="toggle-label-text">Afficher uniquement les monstres avec loot optimisé</span>
+            </div>
+
+            <div class="tranche-filters">
+                <h4>Filtrer par Tranche :</h4>
+                <div class="tranche-checkboxes">
+                    <label><input type="checkbox" name="tranche" value="20"><span class="custom-checkbox"></span> 20</label>
+                    <label><input type="checkbox" name="tranche" value="35"><span class="custom-checkbox"></span> 35</label>
+                    <label><input type="checkbox" name="tranche" value="50"><span class="custom-checkbox"></span> 50</label>
+                    <label><input type="checkbox" name="tranche" value="65"><span class="custom-checkbox"></span> 65</label>
+                    <label><input type="checkbox" name="tranche" value="80"><span class="custom-checkbox"></span> 80</label>
+                    <label><input type="checkbox" name="tranche" value="95"><span class="custom-checkbox"></span> 95</label>
+                    <label><input type="checkbox" name="tranche" value="110"><span class="custom-checkbox"></span> 110</label>
+                    <label><input type="checkbox" name="tranche" value="125"><span class="custom-checkbox"></span> 125</label>
+                    <label><input type="checkbox" name="tranche" value="140"><span class="custom-checkbox"></span> 140</label>
+                    <label><input type="checkbox" name="tranche" value="155"><span class="custom-checkbox"></span> 155</label>
+                    <label><input type="checkbox" name="tranche" value="170"><span class="custom-checkbox"></span> 170</label>
+                    <label><input type="checkbox" name="tranche" value="185"><span class="custom-checkbox"></span> 185</label>
+                    <label><input type="checkbox" name="tranche" value="200"><span class="custom-checkbox"></span> 200</label>
+                    <label><input type="checkbox" name="tranche" value="215"><span class="custom-checkbox"></span> 215</label>
+                    <label><input type="checkbox" name="tranche" value="230"><span class="custom-checkbox"></span> 230</label>
+                </div>
             </div>
             
             <p id="monster-count" class="monster-count"></p>

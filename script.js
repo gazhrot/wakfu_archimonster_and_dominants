@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardContainer = document.getElementById('card-container');
     const searchInput = document.getElementById('searchInput');
     const monsterCount = document.getElementById('monster-count');
-    const filterResetBtn = document.getElementById('filterReset');
     const optiCheckbox = document.getElementById('filter-opti');
+    const trancheFilterContainer = document.querySelector('.tranche-checkboxes');
 
     let allData = [];
     let currentData = [];
@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {number|string} - La tranche (ex: 20, 35...) ou 'N/A'
      */
     function getTrancheForLevel(level) {
+        const numericLevel = parseInt(level, 10); 
+        if (isNaN(numericLevel)) return 'N/A';
         return tranches.find(tranche => level >= tranche) || 'N/A';
     }
 
@@ -25,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             allData = data.map(monster => {
+                const calculatedTranche = getTrancheForLevel(monster.niveau_min);
                  const mappedLoots = (monster.loots || []).map(loot => ({
                      ...loot,
                      image_url: loot.image_url || 'https://via.placeholder.com/48?text=?',
@@ -33,7 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 return {
                     ...monster,
-                    loots: mappedLoots
+                    loots: mappedLoots,
+                    tranche: calculatedTranche
                 };
             });
 
@@ -58,8 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'monster-card';
 
-            const monsterLevel = monster.niveau_min; // On utilise le niveau minimum
-            const trancheMonster = getTrancheForLevel(monsterLevel);
+            const trancheMonster = monster.tranche;
 
             const lootsHtml = monster.loots.map(loot => {
                 const rarityKey = loot.rarity_key;
@@ -111,11 +114,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchTerm = searchInput.value.toLowerCase().trim();
         const isOptiChecked = optiCheckbox.checked;
 
+        const selectedTrancheNodes = trancheFilterContainer.querySelectorAll('input[name="tranche"]:checked');
+        const selectedTranches = Array.from(selectedTrancheNodes).map(input => input.value); 
+        const selectedTranchesNumeric = selectedTranches
+            .map(t => parseInt(t, 10)) 
+            .filter(t => !isNaN(t));
+        const showNA = selectedTranches.includes('N/A');
+
         let filteredData = allData;
 
         if (isOptiChecked) {
             filteredData = filteredData.filter(monstre => {
                 return monstre.loots && monstre.loots.some(loot => loot.is_opti === true);
+            });
+        }
+
+        if (selectedTrancheNodes.length > 0) {
+            filteredData = filteredData.filter(monstre => {
+                const monsterTranche = monstre.tranche;
+
+                if (monsterTranche === 'N/A') {
+                    return showNA;
+                } else {
+                    return selectedTranchesNumeric.includes(monsterTranche);
+                }
             });
         }
 
@@ -134,5 +156,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchInput.addEventListener('input', applyFiltersAndRender);
     optiCheckbox.addEventListener('change', applyFiltersAndRender);
-
+    trancheFilterContainer.addEventListener('change', applyFiltersAndRender);
 });
