@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const monsterCount = document.getElementById('monster-count');
     const filterResetBtn = document.getElementById('filterReset');
+    const optiCheckbox = document.getElementById('filter-opti');
 
     let allData = [];
     let currentData = [];
@@ -51,9 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const lootsHtml = monster.loots.map(loot => {
                 const rarityKey = loot.rarity_key;
                 const cleanName = loot.nom.replace(/ \((épique|relique|déco|ressource)\)/i, '');
+                const optiClass = loot.is_opti ? 'loot-is-opti' : '';
 
                 return `
-                <a href="${loot.url}" target="_blank" class="loot-card rarity-${rarityKey}" title="${loot.nom}">
+                <a href="${loot.url}" target="_blank" class="loot-card rarity-${rarityKey} ${optiClass}" title="${loot.nom}">
                     <div class="loot-image-wrapper">
                         <img src="${loot.image_url}" alt="${cleanName}" class="loot-image" loading="lazy">
                     </div>
@@ -94,28 +96,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function applySearchAndRender() {
+    function applyFiltersAndRender() {
         const searchTerm = searchInput.value.toLowerCase().trim();
+        const isOptiChecked = optiCheckbox.checked;
 
-        if (!searchTerm) {
-            currentData = [...allData];
-        } else {
-            currentData = allData.filter(monster => {
+        let filteredData = allData;
+
+        if (isOptiChecked) {
+            filteredData = filteredData.filter(monstre => {
+                return monstre.loots && monstre.loots.some(loot => loot.is_opti === true);
+            });
+        }
+
+        if (searchTerm) {
+            filteredData = filteredData.filter(monster => {
                 const nameMatch = monster.nom.toLowerCase().includes(searchTerm);
                 const locMatch = (monster.localisation || '').toLowerCase().includes(searchTerm);
                 const lootMatch = monster.loots.some(loot => loot.nom.toLowerCase().includes(searchTerm));
                 return nameMatch || locMatch || lootMatch;
             });
         }
+        
+        currentData = filteredData;
         renderCards(currentData);
     }
 
-    searchInput.addEventListener('input', applySearchAndRender);
-
-    filterResetBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        currentData = [...allData];
-        renderCards(currentData);
-    });
+    searchInput.addEventListener('input', applyFiltersAndRender);
+    optiCheckbox.addEventListener('change', applyFiltersAndRender);
 
 });

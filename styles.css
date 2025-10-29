@@ -500,3 +500,23 @@ body {
     padding: 1rem;
   }
 }
+
+.loot-card.loot-is-opti {
+    box-shadow: 0 0 10px #00e07b;
+    position: relative;
+}
+
+.loot-card.loot-is-opti::before {
+    content: '★';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+    background-color: #00e07b;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+}
