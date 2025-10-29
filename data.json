@@ -1577,7 +1577,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Bottes de Passage »",
@@ -1605,7 +1605,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Dagues Intemporelles »",
@@ -1685,7 +1685,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Bottes de Passage »",
@@ -1713,7 +1713,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Dagues Intemporelles »",
@@ -1826,7 +1826,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Bottes de Passage »",
@@ -1854,7 +1854,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Dagues Intemporelles »",
@@ -2113,7 +2113,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -2244,7 +2244,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -2368,7 +2368,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -2499,7 +2499,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -4528,7 +4528,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Bottes de Passage »",
@@ -4556,7 +4556,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Dagues Intemporelles »",
@@ -4655,7 +4655,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Bottes de Passage »",
@@ -4683,7 +4683,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Dagues Intemporelles »",
@@ -4730,7 +4730,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Bottes de Passage »",
@@ -4758,7 +4758,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plan « Dagues Intemporelles »",
@@ -4980,7 +4980,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/20235-plan-jambieres-pointes",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Kokordon",
@@ -5209,7 +5209,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/20235-plan-jambieres-pointes",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Kokordon",
@@ -5478,7 +5478,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/20235-plan-jambieres-pointes",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Kokordon",
@@ -5740,7 +5740,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/20235-plan-jambieres-pointes",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Kokordon",
@@ -5855,7 +5855,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -5979,7 +5979,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -6169,7 +6169,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
@@ -6300,7 +6300,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "« Pêlle-Miêlle »",
