@@ -208,6 +208,9 @@ body {
 
 /* Monster Card Styles */
 .monster-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: var(--bg-secondary);
   border-radius: 16px;
   overflow: hidden;
@@ -289,6 +292,7 @@ body {
 /* Loots Section */
 .loots-section {
   padding: 24px;
+  flex-grow: 1;
 }
 
 .section-title {
