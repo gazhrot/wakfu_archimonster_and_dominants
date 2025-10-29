@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loot Table Wakfu - Archimonstres & Dominants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-content">
+            <h1 class="page-title">Loot Table Wakfu</h1>
+            <p class="page-subtitle">Archimonstres & Monstres Dominants</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="filters-section">
+            <div class="search-wrapper">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="🔍 Chercher un monstre, un loot, une zone..."
+                >
+            </div>
+            
+            <p id="monster-count" class="monster-count"></p>
+        </section>
+
+        <div id="card-container" class="card-container"></div>
+    </main>
+
+    <footer class="page-footer">
+        <p>Données extraites de Wakfu • Mise à jour régulière</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
