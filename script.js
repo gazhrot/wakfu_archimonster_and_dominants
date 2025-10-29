@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let allData = [];
     let currentData = [];
+    const tranches = [230, 215, 200, 185, 170, 155, 140, 125, 110, 95, 80, 65, 50, 35, 20];
+
+    /**
+     * @param {number} level - (ex: monster.niveau_min)
+     * @returns {number|string} - La tranche (ex: 20, 35...) ou 'N/A'
+     */
+    function getTrancheForLevel(level) {
+        return tranches.find(tranche => level >= tranche) || 'N/A';
+    }
 
     fetch('data.json')
         .then(response => {
@@ -49,6 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'monster-card';
 
+            const monsterLevel = monster.niveau_min; // On utilise le niveau minimum
+            const trancheMonster = getTrancheForLevel(monsterLevel);
+
             const lootsHtml = monster.loots.map(loot => {
                 const rarityKey = loot.rarity_key;
                 const cleanName = loot.nom.replace(/ \((épique|relique|déco|ressource)\)/i, '');
@@ -75,15 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 <div class="loots-section">
-                    <h3 class="section-title">Loots</h3>
                     <div class="loots-grid">
                         ${lootsHtml}
                     </div>
                 </div>
                 <div class="card-footer">
                     <div class="footer-item">
-                        <span class="footer-label">Level</span>
-                        <span class="footer-value">${monster.niveau_str || 'N/A'}</span>
+                        <span class="footer-label">Tranche</span>
+                        <span class="footer-value">${trancheMonster || 'N/A'}</span>
                     </div>
                     <div class="footer-divider"></div>
                     <div class="footer-item">
