@@ -10,11 +10,11 @@
     "localisation": "Astrub – Tainela, Astrub – Plaines d’Astrub",
     "loots": [
       {
-        "nom": "Sargass",
+        "nom": "Sargasse",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armes/10265-sargasse",
         "image_url": "https://vertylo.github.io/wakassets/items/11410265.png",
         "rarity_key": "mythical",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Le Dantgoule",
@@ -100,6 +100,13 @@
         "rarity_key": "mythical",
         "image_url": "https://vertylo.github.io/wakassets/items/1322395.png",
         "is_opti": false
+      },
+      {
+        "nom": "Anneau de Satisfaction (épique)",
+        "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/20666-anneau-satisfaction",
+        "rarity_key": "epic",
+        "image_url": "https://vertylo.github.io/wakassets/items/1039367.png",
+        "is_opti": true
       }
     ]
   },
@@ -113,6 +120,13 @@
     "source_event": "1H",
     "localisation": "Astrub – Montagnes d’Astrub",
     "loots": [
+      {
+        "nom": "Bottes de Satisfaction (épique)",
+        "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/20667-bottes-satisfaction",
+        "rarity_key": "epic",
+        "image_url": "https://vertylo.github.io/wakassets/items/11910247.png",
+        "is_opti": true
+      },
       {
         "nom": "La Gugulden Axe",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armes/15574-gugulden-axe",
@@ -326,7 +340,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/25246-cwabture",
         "rarity_key": "mythical",
         "image_url": "https://vertylo.github.io/wakassets/items/13315496.png",
-        "is_opti": false
+        "is_opti": true
       }
     ]
   },
@@ -404,7 +418,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/21692-anneau-insangse",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/10315423.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Epaulettes Sanguinolentes",
@@ -470,7 +484,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/26488-casque-ecaflip-foudre",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13426488.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Anneau Gadouleux",
@@ -928,7 +942,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/23265-epaulettes-pattes-blanches",
         "rarity_key": "mythical",
         "image_url": "https://vertylo.github.io/wakassets/items/13816024.png",
-        "is_opti": false
+        "is_opti": true
       }
     ]
   },
@@ -1169,7 +1183,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/26581-coiffetiere",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13412501.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Bottes Abraknyde Impérial",
@@ -1294,7 +1308,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armes/18633-epee-nald",
         "rarity_key": "mythical",
         "image_url": "https://vertylo.github.io/wakassets/items/11018633.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "L'Anoldix",
@@ -1320,7 +1334,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/31067-sandales-bator",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/11931067.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Bandelettes circulaires",
@@ -1573,42 +1587,42 @@
         "is_opti": false
       },
       {
-        "nom": "« Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -1681,42 +1695,42 @@
         "is_opti": true
       },
       {
-        "nom": "« Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -1822,42 +1836,42 @@
         "is_opti": false
       },
       {
-        "nom": "« Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -1965,7 +1979,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/27357-anneau-rozan",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/10327357.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Epée Neval",
@@ -2067,98 +2081,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -2198,98 +2212,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "httpsZodiac/www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -2322,98 +2336,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -2453,98 +2467,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -2633,7 +2647,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/27814-gants-roissingue",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/10327814.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Bottes Briss-glace",
@@ -2718,7 +2732,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/28325-bottes-hantouch",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/11928325.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plastron de Scoubidours",
@@ -2810,7 +2824,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/29119-bottiron",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/11929119.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Amulette de l'adepte",
@@ -3065,7 +3079,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/20666-anneau-satisfaction",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/1039367.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Le Beau-Reflet",
@@ -3098,7 +3112,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/20667-bottes-satisfaction",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/11910247.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Casque Groupiou",
@@ -3164,7 +3178,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/30352-kyou-ailes",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13230352.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Cape de longévité",
@@ -3308,7 +3322,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/30392-casque-rezak",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13430392.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Plastrong de Jiliang",
@@ -3362,6 +3376,13 @@
     "source_event": "Hordes Skouales",
     "localisation": "Mont Zinit - Plage Sauvage",
     "loots": [
+      {
+        "nom": "Anneau Insangsé (épique)",
+        "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/21692-anneau-insangse",
+        "rarity_key": "epic",
+        "image_url": "https://vertylo.github.io/wakassets/items/10315423.png",
+        "is_opti": true
+      },
       {
         "nom": "Anneau de Skoualala",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/21171-anneau-skoualala",
@@ -4188,7 +4209,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/18641-chode-foullule-lenald",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13318641.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Cape du Wagicien",
@@ -4299,7 +4320,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/26484-anneau-mummra",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/10326484.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Cape Vagabond",
@@ -4524,42 +4545,42 @@
         "is_opti": false
       },
       {
-        "nom": "Plan « Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -4651,42 +4672,42 @@
         "is_opti": false
       },
       {
-        "nom": "Plan « Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -4726,42 +4747,42 @@
         "is_opti": false
       },
       {
-        "nom": "Plan « Gri-gri Primitif »",
+        "nom": "Gri-gri Primitif",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22567-plan-gri-gri-primitif",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Bottes de Passage »",
+        "nom": "Bottes de Passage",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22568-plan-bottes-passage",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Jonc Tueux »",
+        "nom": "Jonc Tueux",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22569-plan-jonc-tueux",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Cape Canaverale »",
+        "nom": "Cape Canaverale",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22570-plan-cape-canaverale",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "Plan « Epaulettes Paradoxales »",
+        "nom": "Epaulettes Paradoxales",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22571-plan-epaulettes-paradoxales",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "Plan « Dagues Intemporelles »",
+        "nom": "Dagues Intemporelles",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22572-plan-dague-intemporelle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -5242,7 +5263,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/27355-anna-bottes",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/11927355.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Ceinture DigiArv",
@@ -5809,98 +5830,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -5933,98 +5954,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -6106,7 +6127,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/21784-tramontanneau",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/10321784.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Corde Vocale",
@@ -6123,98 +6144,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -6254,98 +6275,98 @@
         "is_opti": false
       },
       {
-        "nom": "« Hiche »",
+        "nom": "Hiche",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22550-plan-hiche",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Cu'Hier »",
+        "nom": "Cu'Hier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22547-plan-cu-hier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Capuche Draconique »",
+        "nom": "Capuche Draconique",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22545-plan-capuche-draconique",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Calumet Hâppé »",
+        "nom": "Calumet Hâppé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22549-plan-calumet-happe",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Bottes de N'Oeuf lieues »",
+        "nom": "Bottes de N'Oeuf lieues",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22540-plan-bottes-oeuf-lieues",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Sirrocollier »",
+        "nom": "Sirrocollier",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22543-plan-siroccollier",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Scalp de Blérox »",
+        "nom": "Scalp de Blérox",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22544-plan-scalp-blerox",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": true
       },
       {
-        "nom": "« Pêlle-Miêlle »",
+        "nom": "Pêlle-Miêlle",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22546-plan-pelle-mielle",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Pas-le-Sentir »",
+        "nom": "Pas-le-Sentir",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22539-plan-sentir",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« L'Epoilé »",
+        "nom": "L'Epoilé",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22542-plan-epoile",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Grigri d'Romel »",
+        "nom": "Grigri d'Romel",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22537-plan-grigri-romel",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Arc Enstone »",
+        "nom": "Arc Enstone",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22548-plan-arc-enstone",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Anneau Fréquent »",
+        "nom": "Anneau Fréquent",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22538-plan-anneau-frequent",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
         "is_opti": false
       },
       {
-        "nom": "« Nargilet »",
+        "nom": "Nargilet",
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/ressources/22541-plan-nargilet",
         "rarity_key": "legendary",
         "image_url": "img/plan.png",
@@ -6420,7 +6441,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/27812-ceinture-fhaneboille",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13327812.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Oeil de Fournaise",
@@ -6453,7 +6474,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/28322-talisman-curolas-mugnas",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/12028322.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Casque reptilien",
@@ -6486,7 +6507,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/27813-cape-eternel-second",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13227813.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Amulette de coquillages",
@@ -6708,7 +6729,7 @@
         "url": "https://www.wakfu.com/fr/mmorpg/encyclopedie/armures/29057-cape-iraterie",
         "rarity_key": "epic",
         "image_url": "https://vertylo.github.io/wakassets/items/13229057.png",
-        "is_opti": false
+        "is_opti": true
       },
       {
         "nom": "Masque Corrompu",
