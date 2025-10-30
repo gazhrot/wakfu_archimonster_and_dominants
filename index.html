@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loot Table Wakfu - Archimonstres & Dominants</title>
+    <title>Wakfu Loot Finder - Archimonstres & Dominants</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 </head>
 <body>
     <header class="page-header">
         <div class="header-content">
-            <h1 class="page-title">Loot Table Wakfu</h1>
+            <h1 class="page-title">Wakfu Loot Finder</h1>
             <p class="page-subtitle">Archimonstres & Monstres Dominants</p>
         </div>
     </header>
@@ -54,6 +58,10 @@
                     <label><input type="checkbox" name="tranche" value="245"><span class="custom-checkbox"></span> 245</label>
                 </div>
             </div>
+
+            <button id="clearFiltersBtn" class="clear-button">
+                Effacer tous les filtres
+            </button>
             
             <p id="monster-count" class="monster-count"></p>
         </section>
@@ -64,6 +72,45 @@
     <footer class="page-footer">
         <p>Données extraites de Wakfu • Mise à jour régulière</p>
     </footer>
+
+    <template id="monster-card-template">
+        <div class="monster-card">
+            <div class="card-header">
+                <div class="monster-image-wrapper">
+                    <img class="monster-image" loading="lazy" data-image-src alt="">
+                </div>
+                <div class="monster-info">
+                    <h2 class="monster-name">
+                        <a href="#" target="_blank" data-name data-url-monstre style="color: inherit; text-decoration: none;">Nom du Monstre</a>
+                    </h2>
+                    <p class="monster-location" data-location>Localisation</p>
+                </div>
+            </div>
+            <div class="loots-section">
+                <div class="loots-grid" data-loots-grid></div>
+            </div>
+            <div class="card-footer">
+                <div class="footer-item">
+                    <span class="footer-label">Tranche</span>
+                    <span class="footer-value" data-tranche>N/A</span>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-item">
+                    <span class="footer-label">Respawn</span>
+                    <span class="footer-value" data-respawn>N/A</span>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="loot-card-template">
+        <a href="#" target="_blank" class="loot-card" title="">
+            <div class="loot-image-wrapper">
+                <img src="" alt="" class="loot-image" loading="lazy" data-image-src>
+            </div>
+            <span class="loot-name" data-name>Nom du Loot</span>
+        </a>
+    </template>
 
     <script src="script.js"></script>
 </body>

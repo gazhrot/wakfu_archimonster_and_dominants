@@ -652,3 +652,19 @@ label[for="filter-opti"]::after {
 .tranche-checkboxes label:hover .custom-checkbox {
     border-color: #007bff;
 }
+
+.clear-button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.clear-button:hover {
+    background-color: #d00000;
+}
