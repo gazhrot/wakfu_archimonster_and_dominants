@@ -8,17 +8,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let allData = [];
     let currentData = [];
-    const tranches = [230, 215, 200, 185, 170, 155, 140, 125, 110, 95, 80, 65, 50, 35, 20];
 
-    /**
-     * @param {number} level - (ex: monster.niveau_min)
-     * @returns {number|string} - La tranche (ex: 20, 35...) ou 'N/A'
-     */
-    function getTrancheForLevel(level) {
-        const numericLevel = parseInt(level, 10); 
-        if (isNaN(numericLevel)) return 'N/A';
-        return tranches.find(tranche => level >= tranche) || 'N/A';
+    function applyFiltersFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        const tranchesFromUrl = urlParams.get('tranche');
+        if (tranchesFromUrl !== null) {
+            const tranchesToSelect = new Set(tranchesFromUrl.split(','));
+            const allTrancheCheckboxes = trancheFilterContainer.querySelectorAll('input[name="tranche"]');
+            allTrancheCheckboxes.forEach(checkbox => {
+                checkbox.checked = tranchesToSelect.has(checkbox.value);
+            });
+        }
+
+        const searchFromUrl = urlParams.get('search');
+        if (searchFromUrl !== null) {
+            searchInput.value = searchFromUrl;
+        }
+
+        const optiFromUrl = urlParams.get('opti');
+        if (optiFromUrl === 'true') {
+            optiCheckbox.checked = true;
+        }
     }
+
+    function updateURLFromFilters() {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const selectedTrancheNodes = trancheFilterContainer.querySelectorAll('input[name="tranche"]:checked');
+        const selectedTranches = Array.from(selectedTrancheNodes).map(input => input.value);
+        if (selectedTranches.length > 0) {
+            urlParams.set('tranche', selectedTranches.join(','));
+        } else {
+            urlParams.delete('tranche');
+        }
+
+        const currentSearch = searchInput.value.trim();
+        if (currentSearch) {
+            urlParams.set('search', currentSearch);
+        } else {
+            urlParams.delete('search');
+        }
+
+        if (optiCheckbox.checked) {
+            urlParams.set('opti', 'true');
+        } else {
+            urlParams.delete('opti');
+        }
+
+        const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.replaceState({path: newUrl}, '', newUrl);
+    }
+
+    applyFiltersFromURL();
 
     fetch('data.json')
         .then(response => {
@@ -27,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             allData = data.map(monster => {
-                const calculatedTranche = getTrancheForLevel(monster.niveau_min);
                  const mappedLoots = (monster.loots || []).map(loot => ({
                      ...loot,
                      image_url: loot.image_url || 'https://via.placeholder.com/48?text=?',
@@ -37,12 +78,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 return {
                     ...monster,
                     loots: mappedLoots,
-                    tranche: calculatedTranche
+                    tranche: monster.tranche
                 };
             });
 
-            currentData = [...allData];
-            renderCards(currentData);
+            applyFiltersAndRender();
         })
         .catch(error => {
             console.error("Error loading data.json:", error);
@@ -152,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         currentData = filteredData;
         renderCards(currentData);
+        updateURLFromFilters();
     }
 
     searchInput.addEventListener('input', applyFiltersAndRender);
